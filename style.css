@@ -1,0 +1,249 @@
+*{ margin: 0; padding: 0; }
+	body
+	{
+		font-size:13px;
+		font-family:Arial, Helvetica, sans-serif;
+		color:lightgray;
+		background:#444444;
+	}
+	a
+	{
+		color:dodgerblue;
+		text-decoration:none;
+	}
+	a:hover
+	{
+		color:#babdbf;
+		text-decoration:none;
+	}
+	ol,ul
+	{
+		list-style-type:none;
+	}
+	table
+	{
+		width:100%;
+		border-collapse:collapse;
+		text-shadow:0px 1px 0px gray;
+		border:1px solid gray#848484;
+		margin:10px 0;
+	}
+	tr.tops
+	{
+		height:35px;
+		font-weight:bold;
+		border-bottom:1px solid #202121;
+		box-shadow:0px 1px 0px #383939;
+	}
+	td
+	{
+		padding:5px;
+		border:1px solid #151515;
+		box-shadow:1px 1px 0px #383939;
+	}
+	form
+	{
+		margin:10px 0;
+		padding:0;
+		font-weight:bold;
+		text-shadow:0px 1px 0px #000;
+	}
+	form.reg
+	{
+		margin:10px 0;
+		padding:20px;
+		border:1px solid #151515;
+		box-shadow:1px 1px 0px #383939;
+	}
+	form.reg input
+	{
+		margin:0;
+	}
+	input
+	{  
+		padding: 7px 3px;
+		margin:3px 0 10px 0;  
+		border: solid 1px #121415;
+		border-radius:0px;  
+		outline: 0;  
+		font: normal 13px/100% Arial, Helvetica, sans-serif; 
+		background: #646769;  
+		color:#C8C8C8; 
+		background: -moz-linear-gradient(top, #939596 3%, #5a5c5e 3%, #313233 100%); 
+		background: -webkit-linear-gradient(top, #939596 3%, #5a5c5e 3%, #313233 100%); 
+		box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+		-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+		-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	}  
+	textarea 
+	{
+		font-weight:normal;  
+		border: solid 1px #121415;
+		background:#A1A1A1;
+		margin:3px 0 10px 0; 
+	}   
+	input#button
+	{
+		padding:7px 10px;
+		font-weight:bold;
+		margin:0;
+		color:#151616;
+		cursor:pointer;
+		text-shadow:0px 1px 0px #545556;
+	}	
+	.wrap
+	{
+		width:980px;
+		text-align:justify;
+		padding:0;
+		margin:0 auto;
+	}
+	.top
+	{
+		width:100%;
+		height:70px;
+		background:#424648;
+	}
+	.top h1
+	{
+		padding:5px 0 0 0;
+		margin:0;
+		font-size:30px;
+		font-weight:normal;
+		color:#898989;
+		text-shadow:0px 1px 0px#000;
+	}
+	.top p
+	{
+		margin:0;
+		padding:5px 0;
+		font-size:11px;
+		text-shadow:0px 1px 0px#070808;
+	}
+	.nav
+	{
+		width:100%;
+		height:35px;
+		background:-moz-linear-gradient(top,#e7e967 3%,#d9db33 3%,#afb109 100%);
+		background:-webkit-linear-gradient(top,#e7e967 3%,#d9db33 3%,#afb109 100%);
+		border-bottom:3px solid #0578c2;
+	}
+	.nav li
+	{
+		float:left;
+		display:inline;
+		margin:0 4px 0 0;
+	}
+	.nav li a
+	{
+		padding:12px 15px;
+		line-height:35px;
+		font-weight:bold;
+	}
+	.nav li a:hover, .nav li a.current
+	{
+		background:-moz-linear-gradient(top,#a2d9fc 3%,#4ab3f6 3%,#0578c2 100%);
+		background:-webkit-linear-gradient(top,#a2d9fc 3%,#4ab3f6 3%,#0578c2 100%);
+		color:#ffffff;
+	}
+	.page
+	{
+		margin:20px 0;
+		width:100%;
+		padding:0;
+	}
+	.page-left
+	{
+		float:left;
+		width:720px;
+	}
+	.page-right
+	{
+		float:right;
+		width:210px;
+	}
+	.clear
+	{
+		clear:both;
+	}
+	.box
+	{
+		margin:0 0 20px 0;
+		padding:0;
+	}
+	.box h1
+	{
+		margin:0;
+		padding:10px 0;
+		border-bottom:1px solid #171818;
+		box-shadow:0px 1px 0px #2f3132;
+		font-family:'Calibri';
+		font-size:20px;
+		font-weight:normal;
+		text-transform:uppercase;
+		text-shadow:0px 1px 0px white;
+		color:gray;
+	}
+	.box p
+	{
+		margin:0;
+		padding:10px 0;
+		text-shadow:0px 1px 0px #000;
+	}
+	.err
+	{
+		line-height:18px;
+		color:#ff0000;
+		font-size:11px;
+	}
+	.box p.info
+	{
+		margin:5px 0;
+		padding:7px 10px;
+		border:1px solid #171818;
+		box-shadow:0px 1px 0px #2f3132;
+		font-size:11px;
+	}
+	.box ul.sidebar
+	{
+		margin:5px 0;
+		padding:0;
+	}
+	.box ul.sidebar li a
+	{
+		padding:8px 0 8px 30px;
+		line-height:18px;
+		display:block;
+		font-weight:bold;
+		border-bottom:1px solid #171818;
+		box-shadow:0px 1px 0px #2f3132;
+		background:url(images/arrow_alt_right.png) no-repeat 0% 10px;
+	}
+	.photo-profile
+	{
+		margin:5px 0;
+		padding:0;
+		width:210px;
+		height:250px;
+		box-shadow:0px 1px 0px #2f3132;
+	}
+	.photo-small
+	{
+		margin:5px 0 5px 3px;
+		padding:2px;
+		border-radius:70px;
+		width:50px;
+		height:50px;
+		border:5px solid #8B8B8B;
+	}
+	.photo-small:hover
+	{
+		border:5px solid #CDCDCD;
+	}
+	.update-topic
+	{
+		margin:0;
+		padding:0;
+		font-size:11px;
+		line-height:30px;
+	}
